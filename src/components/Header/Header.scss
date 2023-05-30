@@ -22,6 +22,7 @@
       margin-left: 32px;
       margin-bottom: 23px;
       cursor: pointer;
+      z-index: 2;
 
       img {
         padding: 10px;
@@ -37,6 +38,7 @@
       left: 97px;
       position: absolute;
       top: 22px;
+      z-index: 2;
     }
   }
 
@@ -88,5 +90,15 @@
       bottom: 36.9%;
       border: 1px solid #eceef5;
     }
+  }
+  &-line {
+    box-sizing: border-box;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 98.96%;
+    bottom: 0%;
+    border: 1px solid #eceef5;
+    z-index: 2;
   }
 }

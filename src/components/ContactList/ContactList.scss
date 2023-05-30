@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
+.contactlist {
+  position: absolute;
+  width: 552px;
+  height: 901px;
+  left: 84px;
+  top: 0px;
+  background: #faf9ff;
+  z-index: 1;
+
+  &-searchbar {
+    span {
+      position: absolute;
+      width: 187px;
+      height: 21px;
+      left: 32px;
+      top: 112px;
+      font-family: "Lato";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 21px;
+      color: #8083a3;
+    }
+
+    input {
+      position: absolute;
+      width: 328px;
+      height: 19px;
+      left: 32px;
+      top: 141px;
+      border: 0;
+      font-family: "Lato";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 19px;
+      background-color: #faf9ff;
+
+      &::placeholder {
+        color: #1a1c1d;
+      }
+    }
+
+    &__icon {
+      img {
+        position: absolute;
+        width: 18px;
+        height: 18px;
+        right: 43px;
+        top: 142px;
+        font-family: "Material Icons";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 18px;
+        text-align: center;
+        color: #1d1d24;
+        cursor: pointer;
+      }
+    }
+  }
+
+  &-users {
+    position: absolute;
+    width: 522px;
+    height: 686px;
+    left: 15px;
+    top: 180px;
+  }
+}
