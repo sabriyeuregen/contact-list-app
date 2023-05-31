@@ -1,7 +1,7 @@
 .sidebar {
   position: absolute;
   width: 84px;
-  height: 900px;
+  height: 100%;
   left: 0px;
   top: 1px;
   background-color: #ffff;
@@ -10,12 +10,11 @@
     position: absolute;
     width: 40px;
     height: 40px;
-    left: 32px;
+    left: 22px;
     top: 22px;
   }
   &-menus {
-    margin-top: 206px;
-    margin-left: 20px;
+    margin-top: 144px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -29,7 +28,7 @@
       line-height: 22px;
       text-align: center;
       color: #8083a3;
-      padding: 50px;
+      margin: 25px;
     }
   }
 }

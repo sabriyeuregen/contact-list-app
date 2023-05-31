@@ -1,12 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
 .user-card {
-    width: 522px;
-    height: 68px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 522px;
+  height: 68px;
+  right: 15px;
+  left: 13px;
+  bottom: 34px;
 
-    &-name {
+  &-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 18px;
 
+    &__image {
+      img {
+        width: 36px;
+        height: 36px;
+        border-radius: 10px;
+      }
+    }
+    &__name {
+      font-family: "Lato";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 21px;
+      color: #1a1c1d;
+      text-align: center;
+      margin-top: 14px;
+      margin-bottom: 33px;
+      margin-left: 18px;
     }
 
-    &-job {
-
+    &__job {
+      font-family: "Lato";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 21px;
+      color: #8083a3;
+      position: absolute;
+      margin-top: 10px;
+      left: 128px;
     }
+  }
+
+  &-icons {
+    width: 120px;
+    height: 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 33px;
+
+    &__messagesIcon {
+      padding: 9px;
+      background: #ffffff;
+      border: 1px solid #eceef5;
+      border-radius: 10px;
+      width: 25px;
+      margin: 6px;
+
+      img {
+        font-family: "Material Icons";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 18px;
+        text-align: center;
+        color: #8083a3;
+      }
+    }
+
+    &__phoneIcon {
+      padding: 9px;
+      background: #ffffff;
+      border: 1px solid #eceef5;
+      border-radius: 10px;
+      width: 25px;
+      margin: 6px;
+
+      img {
+        font-family: "Material Icons";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 18px;
+        text-align: center;
+        color: #8083a3;
+      }
+    }
+    &__endpoint {
+      padding: 11px;
+      background: #ffffff;
+      border: 1px solid #eceef5;
+      border-radius: 10px;
+      width: 25px;
+      margin: 6px;
+
+      img {
+        font-family: "Material Icons";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 18px;
+        text-align: center;
+        color: #8083a3;
+      }
+    }
+  }
 }

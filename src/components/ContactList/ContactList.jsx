@@ -4,7 +4,7 @@ import "./ContactList.scss";
 import inputsearchIcon from "../../assets/icons/input-search.png";
 const ContactList = () => {
   const contactList = data.map((user) => (
-    <UserCard key={user.id} name={user.name} job={user.job} />
+    <UserCard key={user.id} name={user.name} job={user.job} image={user.image}/>
   ));
 
   return (
